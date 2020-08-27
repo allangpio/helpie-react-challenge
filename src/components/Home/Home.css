@@ -1,0 +1,26 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  margin-left: 8em;
+}
+
+.home h1 {
+  width: 20ch;
+  margin-bottom: 1rem;
+}
+
+.home span {
+  color: var(--color-primary);
+}
+
+.home .subheading {
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.home .btn-container > *:first-child {
+  margin-right: 1.5rem;
+}

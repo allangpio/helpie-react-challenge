@@ -1,0 +1,35 @@
+a {
+  text-decoration: none;
+  font-weight: 600;
+  padding: 1rem 2rem;
+}
+
+.btn-primary {
+  background: var(--color-primary);
+  color: #fff;
+
+  border: 1px solid transparent;
+
+  transition: background 200ms, color 200ms, border 200ms;
+}
+
+.btn-primary:hover {
+  background: #fff;
+  color: var(--color-primary);
+  border: 1px solid var(--color-primary);
+}
+
+.btn-secondary {
+  background: #fff;
+  color: var(--color-secondary);
+
+  border: 1px solid var(--color-secondary);
+
+  transition: background 200ms, color 200ms, border 200ms;
+}
+
+.btn-secondary:hover {
+  background: var(--color-secondary);
+  color: #fff;
+  border: 1px solid transparent;
+}
