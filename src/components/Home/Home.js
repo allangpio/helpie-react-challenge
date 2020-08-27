@@ -16,11 +16,7 @@ function Home() {
         eficiente
       </p>
       <div className="btn-container">
-        <Button
-          destination="/register"
-          style="btn-primary"
-          title="+Cadastrar"
-        />
+        <Button destination="/step1" style="btn-primary" title="+Cadastrar" />
         <Button destination="/clients" style="btn-secondary" title="Clientes" />
       </div>
     </div>

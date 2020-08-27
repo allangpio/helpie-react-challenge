@@ -8,7 +8,7 @@ import "./Sidebar.css";
 function Sidebar() {
   return (
     <div className="sidebar">
-      <Link to="/register">+Cadastar</Link>
+      <Link to="/step1">+Cadastar</Link>
       <Link to="/clients">Clientes</Link>
     </div>
   );
