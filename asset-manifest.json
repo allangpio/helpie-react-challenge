@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/helpie-react-challenge/static/css/main.5bee2280.chunk.css",
-    "main.js": "/helpie-react-challenge/static/js/main.bf35e764.chunk.js",
-    "main.js.map": "/helpie-react-challenge/static/js/main.bf35e764.chunk.js.map",
+    "main.js": "/helpie-react-challenge/static/js/main.c2aead39.chunk.js",
+    "main.js.map": "/helpie-react-challenge/static/js/main.c2aead39.chunk.js.map",
     "runtime-main.js": "/helpie-react-challenge/static/js/runtime-main.ac452c68.js",
     "runtime-main.js.map": "/helpie-react-challenge/static/js/runtime-main.ac452c68.js.map",
-    "static/js/2.2482c7e4.chunk.js": "/helpie-react-challenge/static/js/2.2482c7e4.chunk.js",
-    "static/js/2.2482c7e4.chunk.js.map": "/helpie-react-challenge/static/js/2.2482c7e4.chunk.js.map",
+    "static/js/2.d6e3b6f4.chunk.js": "/helpie-react-challenge/static/js/2.d6e3b6f4.chunk.js",
+    "static/js/2.d6e3b6f4.chunk.js.map": "/helpie-react-challenge/static/js/2.d6e3b6f4.chunk.js.map",
     "index.html": "/helpie-react-challenge/index.html",
-    "precache-manifest.1a8381fa2cdc7abff4a1ded91c98118f.js": "/helpie-react-challenge/precache-manifest.1a8381fa2cdc7abff4a1ded91c98118f.js",
+    "precache-manifest.87f9d22fee18d08c9a674493c489d26e.js": "/helpie-react-challenge/precache-manifest.87f9d22fee18d08c9a674493c489d26e.js",
     "service-worker.js": "/helpie-react-challenge/service-worker.js",
     "static/css/main.5bee2280.chunk.css.map": "/helpie-react-challenge/static/css/main.5bee2280.chunk.css.map",
-    "static/js/2.2482c7e4.chunk.js.LICENSE.txt": "/helpie-react-challenge/static/js/2.2482c7e4.chunk.js.LICENSE.txt",
+    "static/js/2.d6e3b6f4.chunk.js.LICENSE.txt": "/helpie-react-challenge/static/js/2.d6e3b6f4.chunk.js.LICENSE.txt",
     "static/media/logohelpie.svg": "/helpie-react-challenge/static/media/logohelpie.9c81193a.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.ac452c68.js",
-    "static/js/2.2482c7e4.chunk.js",
+    "static/js/2.d6e3b6f4.chunk.js",
     "static/css/main.5bee2280.chunk.css",
-    "static/js/main.bf35e764.chunk.js"
+    "static/js/main.c2aead39.chunk.js"
   ]
 }

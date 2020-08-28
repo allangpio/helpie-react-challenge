@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/helpie-react-challenge/precache-manifest.1a8381fa2cdc7abff4a1ded91c98118f.js"
+  "/helpie-react-challenge/precache-manifest.87f9d22fee18d08c9a674493c489d26e.js"
 );
 
 self.addEventListener('message', (event) => {
