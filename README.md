@@ -14,9 +14,9 @@
 This web app was created as part of the test to apply to be a Front-end Developer at Helpie.
 It consists on an app that has two parts. The first is a mult-step form to register clients and the second is a section were the data submited from the form will be displayed.
 
-<a href="http://www.fiosdechoro.com.br" target="_blank">Live Demo</a>
+<a href="https://allangpio.github.io/helpie-react-challenge/#/" target="_blank">Live Demo</a>
 
-<img alt="Helpie - Desktop" title="Helpie Web App" src=".src/assets/helpie.png" width='400' />
+<img alt="Helpie - Desktop" title="Helpie Web App" src="./src/assets/helpie.png" width='400' />
 
 ## Tech Stack
 

@@ -2,7 +2,7 @@ import React from "react";
 
 import "./App.css";
 import Sidebar from "./components/Sidebar/Sidebar";
-import { Route, BrowserRouter } from "react-router-dom";
+import { Route, HashRouter } from "react-router-dom";
 import Home from "./components/Home/Home";
 import { Step1 } from "./components/Step1/Step1";
 import { Step2 } from "./components/Step2/Step2";
@@ -21,7 +21,7 @@ function App() {
     <Provider store={store}>
       <div className="App">
         <img src={logo} alt="Logo Helpie" className="logo" />
-        <BrowserRouter>
+        <HashRouter>
           <div className="container">
             <Sidebar />
             <Route path="/" exact component={Home} />
@@ -38,7 +38,7 @@ function App() {
               render={() => <Clients clientsList={clients} />}
             />
           </div>
-        </BrowserRouter>
+        </HashRouter>
       </div>
     </Provider>
   );
