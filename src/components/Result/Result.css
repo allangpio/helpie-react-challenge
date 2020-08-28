@@ -1,0 +1,11 @@
+.result {
+  gap: 2rem;
+  text-align: center;
+  place-items: center;
+}
+
+.result .success-icon {
+  font-size: 5rem;
+  color: var(--color-secondary);
+  text-align: center;
+}

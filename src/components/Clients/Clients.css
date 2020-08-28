@@ -1,0 +1,60 @@
+.clients-container {
+  display: grid;
+  place-content: start center;
+}
+
+.clients-container h1 {
+  margin: 5rem 0 3.5rem 0;
+  text-align: center;
+}
+
+.clients-container li {
+  list-style: none;
+  margin-bottom: 0.3rem;
+  cursor: pointer;
+  font-size: 1.25rem;
+  font-weight: 500;
+  transition: color 200ms, text-decoration 200ms;
+}
+
+.clients-container li:hover {
+  color: var(--color-primary);
+  text-decoration: underline;
+}
+
+.clients-container .btn-home {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.modal {
+  display: grid;
+  place-content: center center;
+  height: 100vh;
+}
+
+.modal h4 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.modal p {
+  margin-bottom: 0.3rem;
+}
+
+.modal .close {
+  font-size: 2rem;
+  color: var(--color-primary);
+  cursor: pointer;
+  position: absolute;
+  top: -2rem;
+  right: -2rem;
+}
+
+.modal-container {
+  position: relative;
+  padding: 2rem;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}

@@ -5,9 +5,9 @@ import "./Button.css";
 
 // import { Container } from './styles';
 
-function Button({ destination, style, title }) {
+function Button({ destination, styles, title }) {
   return (
-    <Link to={destination} className={style}>
+    <Link to={destination} className={styles}>
       {title}
     </Link>
   );

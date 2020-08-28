@@ -3,11 +3,11 @@
   flex-direction: column;
   justify-content: center;
 
-  margin-left: 8em;
+  margin-left: 8rem;
 }
 
 .home h1 {
-  width: 20ch;
+  max-width: 20ch;
   margin-bottom: 1rem;
 }
 
@@ -19,8 +19,22 @@
   font-weight: 600;
   font-size: 1.2rem;
   margin-bottom: 2rem;
+  max-width: 40ch;
 }
 
 .home .btn-container > *:first-child {
   margin-right: 1.5rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .home {
+    margin-left: 4rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .home {
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
 }

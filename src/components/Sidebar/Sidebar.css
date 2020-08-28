@@ -20,3 +20,21 @@
 .sidebar a:hover {
   text-decoration: underline;
 }
+
+@media screen and (max-width: 600px) {
+  .sidebar {
+    height: 8vh;
+    width: 100vw;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  .sidebar a {
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+    padding: 0 1rem;
+  }
+}

@@ -6,13 +6,13 @@ const rootSlice = createSlice({
     name: "",
     lastName: "",
     email: "",
-    phone: 0,
-    cep: 0,
+    phone: "",
+    cep: "",
     address1: "",
     address2: "",
     birthdate: "",
-    cpf: 0,
-    income: 0,
+    cpf: "",
+    income: "",
   },
   reducers: {
     setName: (state, action) => {

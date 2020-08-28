@@ -1,0 +1,20 @@
+.form .form-submit {
+  text-decoration: none;
+  font-weight: 600;
+  padding: 1rem 2rem;
+  width: 100%;
+  cursor: pointer;
+
+  background: var(--color-secondary);
+  color: #fff;
+
+  border: 1px solid transparent;
+
+  transition: background 200ms, color 200ms, border 200ms;
+}
+
+.form .form-submit:hover {
+  background: #fff;
+  color: var(--color-secondary);
+  border: 1px solid var(--color-secondary);
+}
