@@ -36,10 +36,7 @@ function Clients() {
               <p>Telefone: {client.phone}</p>
               <p>CEP: {client.cep}</p>
               <p>Endereço 1: {client.address1}</p>
-              {client.address2.length > 0 && (
-                <p>Endereço 2: {client.address2}</p>
-              )}
-
+              <p>Endereço 2: {client.address2}</p>
               <p>Data de nascimento: {client.birthdate}</p>
               <p>CPF: {client.cpf} </p>
               <p>Renda mensal: {client.income} </p>

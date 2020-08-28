@@ -1,13 +1,19 @@
 .home {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   justify-content: center;
 
-  margin-left: 8rem;
+  margin-left: 8rem; */
+
+  display: grid;
+  /* place-items: center center; */
+  place-content: center center;
+  width: 100vw;
+  height: 80vh;
 }
 
 .home h1 {
-  max-width: 20ch;
+  max-width: 22ch;
   margin-bottom: 1rem;
 }
 
