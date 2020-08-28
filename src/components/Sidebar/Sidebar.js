@@ -35,9 +35,6 @@ function Sidebar() {
               </li>
             );
           })}
-          {/* <Link to="/">Home</Link>
-          <Link to="/step1">+Cadastar</Link>
-          <Link to="/clients">Clientes</Link> */}
         </ul>
       </div>
     </div>

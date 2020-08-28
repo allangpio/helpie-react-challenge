@@ -10,7 +10,7 @@ import { useEffect } from "react";
 
 function Clients() {
   const [modalIsOpen, setModalIsOpen] = useState(false);
-  // console.log(state);
+
   const clients = useSelector((state) => state);
   const [clientsList, setClientsList] = useState([]);
   useEffect(() => {
@@ -23,7 +23,6 @@ function Clients() {
       <h1>CLientes</h1>
 
       {clientsList.length === 0 && <p>Ainda não temos clientes cadastrados</p>}
-      {console.log(clientsList)}
       {clientsList.map((client) => (
         <li key={client.email} onClick={() => setModalIsOpen(true)}>
           {client.name} {client.lastName}
