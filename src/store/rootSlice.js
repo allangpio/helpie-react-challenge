@@ -3,6 +3,7 @@ import { createSlice } from "@reduxjs/toolkit";
 const rootSlice = createSlice({
   name: "root",
   initialState: {
+    clients: [],
     name: "",
     lastName: "",
     email: "",
@@ -44,6 +45,10 @@ const rootSlice = createSlice({
     },
     setIncome: (state, action) => {
       state.income = action.payload;
+    },
+    setClients: (state, action) => {
+      const { clients, ...formData } = state;
+      state.clients.push(formData);
     },
   },
 });

@@ -4,19 +4,20 @@ import { useState } from "react";
 import { AiFillCloseCircle } from "react-icons/ai";
 import { useSelector } from "react-redux";
 import Button from "../Button/Button";
+import { connect } from "react-redux";
 
 import "./Clients.css";
 import { useEffect } from "react";
 
-function Clients() {
+function Clients({ clientsList }) {
   const [modalIsOpen, setModalIsOpen] = useState(false);
-  // console.log(state);
-  const clients = useSelector((state) => state);
-  const [clientsList, setClientsList] = useState([]);
-  useEffect(() => {
-    setClientsList([...clientsList, clients]);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+
+  // const clients = useSelector((state) => state);
+  // const [clientsList, setClientsList] = useState([]);
+  // useEffect(() => {
+  //   setClientsList([...clientsList, clients]);
+  //   // eslint-disable-next-line react-hooks/exhaustive-deps
+  // }, []);
 
   return (
     <div className="clients-container" id="clients">
@@ -60,4 +61,4 @@ function Clients() {
   );
 }
 
-export default Clients;
+export default connect((state) => ({ clientsList: state.clients }))(Clients);

@@ -12,7 +12,7 @@ import Clients from "./components/Clients/Clients";
 
 import logo from "./assets/logohelpie.svg";
 import { Provider } from "react-redux";
-import { store } from "./store/store";
+import store from "./store/index";
 
 function App() {
   const clients = [];
