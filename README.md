@@ -3,8 +3,7 @@
 </h1>
 
 <p align="center">
- <a href="#about">About</a> •
- <a href="#features">Features</a> • 
+ <a href="#about">About</a> • 
  <a href="#tech-stack">Tech Stack</a> •  
  <a href="#author">Author</a> • 
 </p>
