@@ -9,7 +9,7 @@ function Home() {
   return (
     <div className="home">
       <h1>
-        Para facilitar o encontro de <span>clientes</span>
+        Para facilitar a listagem de <span>clientes</span>
       </h1>
       <p className="subheading">
         Em poucos passos você pode cadastrar e encontrar clientes de forma

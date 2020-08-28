@@ -16,7 +16,7 @@ It consists on an app that has two parts. The first is a mult-step form to regis
 
 <a href="http://www.fiosdechoro.com.br" target="_blank">Live Demo</a>
 
-<img alt="Helpie - Desktop" title="Helpie Web App" src="./assets/helpie.png" width='400' />
+<img alt="Helpie - Desktop" title="Helpie Web App" src=".src/assets/helpie.png" width='400' />
 
 ## Tech Stack
 
