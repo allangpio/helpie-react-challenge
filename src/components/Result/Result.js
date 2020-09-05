@@ -1,16 +1,11 @@
 import React from "react";
 
 import "./Result.css";
-import { useSelector } from "react-redux";
+
 import Button from "../Button/Button";
 import { BsCheckCircle } from "react-icons/bs";
 
-export const Result = ({ clientsList }) => {
-  const state = useSelector((state) => state);
-
-  clientsList.push(Object.assign({}, state));
-
-  return (
+export const Result = ({ clientsList }) => (
     <div className="form-container result">
       <h3>Cadastro realizado com sucesso!</h3>
       <BsCheckCircle className="success-icon" />
@@ -22,4 +17,4 @@ export const Result = ({ clientsList }) => {
       />
     </div>
   );
-};
+

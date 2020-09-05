@@ -3,27 +3,27 @@ import Modal from "react-modal";
 import { useState } from "react";
 import { AiFillCloseCircle } from "react-icons/ai";
 import { useSelector } from "react-redux";
-import Button from "../Button/Button";
+import Button from '../../components/Button/Button';
 
 import "./Clients.css";
-import { useEffect } from "react";
 
 function Clients() {
   const [modalIsOpen, setModalIsOpen] = useState(false);
 
-  const clients = useSelector((state) => state);
-  const [clientsList, setClientsList] = useState([]);
-  useEffect(() => {
-    setClientsList([...clientsList, clients]);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  const client= useSelector((state) => state);  
+  
+  // const [clientsList, setClientsList] = useState([]);
+  // useEffect(() => {
+  //   setClientsList([...clientsList, clients]);
+  //   // eslint-disable-next-line react-hooks/exhaustive-deps
+  // }, []);
 
   return (
     <div className="clients-container" id="clients">
       <h1>CLientes</h1>
 
-      {clientsList.length === 0 && <p>Ainda não temos clientes cadastrados</p>}
-      {clientsList.map((client) => (
+      {client.name === ''  && <p>Ainda não temos clientes cadastrados</p>}
+      
         <li key={client.email} onClick={() => setModalIsOpen(true)}>
           {client.name} {client.lastName}
           <Modal isOpen={modalIsOpen} ariaHideApp={false} className="modal">
@@ -49,7 +49,7 @@ function Clients() {
             </div>
           </Modal>
         </li>
-      ))}
+      
       <Button
         destination="/"
         styles="btn-secondary btn-home"
